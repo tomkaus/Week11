@@ -1,0 +1,27 @@
+/* Styling for individual cells on the game board */
+.cell{
+    width: 100px;
+    height: 100px;
+    border: 3px solid;
+    box-shadow: 0 0 0 3px;
+    line-height: 100px;
+    font-size: 75px;
+    cursor: pointer;
+}
+
+
+/* Styling for the main game container */
+#gameContainer{
+    font-family: "arial", bold;
+    text-align: center;
+    background: linear-gradient(#e6d65a,#f51212);
+}
+
+/* Styling for the container holding the cells */
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto); /* Creates the 3 x 3 grid */
+    width: 300px;
+    margin: auto;
+    
+}
